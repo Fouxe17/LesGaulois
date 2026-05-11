@@ -1,7 +1,5 @@
 package personnages;
 
-import com.sun.source.tree.SwitchExpressionTree;
-
 import village_gaulois.Village;
 
 public class Gaulois {

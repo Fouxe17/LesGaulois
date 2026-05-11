@@ -1,7 +1,5 @@
 package village_gaulois;
 
-import java.util.Arrays;
-
 import personnages.Gaulois;
 
 public class Village {
@@ -71,18 +69,18 @@ public class Village {
 
 		Gaulois gaulois = village.trouverVillageois(1);
 
-		System.out.println(gaulois);
+//		System.out.println(gaulois);
 
 		gaulois = village.trouverVillageois(2);
 		
-		System.out.println(gaulois);
+//		System.out.println(gaulois);
 		
 		village.afficherVillage();
 		
 		Gaulois obelix = new Gaulois("Obélix", 25);
 		village.ajouterVillageois(obelix);
 		
-		obelix.sePresenter();
+//		obelix.sePresenter();
 	}
 
 }
